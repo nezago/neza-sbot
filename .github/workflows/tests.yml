@@ -15,6 +15,9 @@ jobs:
         run: |
           [ -f Gemfile ] && bundle --deployment
           gem install --no-document rspec:'~>3.0'
+          gem install codecov
+          gem install slack-ruby-bot
+          gem install simplecov
       - name: RSpec Report
         env:
           CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
