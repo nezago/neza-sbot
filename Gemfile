@@ -7,3 +7,5 @@ gem 'dotenv'
 gem 'rspec', '~>3.0'
 gem 'rubocop', '~>0.81.0'
 gem 'slack-ruby-bot'
+gem 'codecov', require: false, group: 'test'
+gem 'simplecov', require: false, group: :test
