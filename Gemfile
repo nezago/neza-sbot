@@ -6,7 +6,6 @@ gem 'async-websocket'
 gem 'celluloid-io'
 gem 'codecov', require: false, group: 'test'
 gem 'dotenv'
-gem 'rack'
 gem 'rspec', '~>3.0'
 gem 'rubocop', '~>0.81.0'
 gem 'simplecov', require: false, group: :test
