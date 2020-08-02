@@ -53,6 +53,7 @@ GEM
     protocol-websocket (0.7.4)
       protocol-http (~> 0.2)
       protocol-http1 (~> 0.2)
+    rack (2.2.3)
     rainbow (3.0.0)
     rexml (3.2.4)
     rspec (3.9.0)
@@ -103,6 +104,7 @@ DEPENDENCIES
   async-websocket
   codecov
   dotenv
+  rack
   rspec (~> 3.0)
   rubocop (~> 0.81.0)
   simplecov

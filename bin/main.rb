@@ -1,3 +1,6 @@
 #!/usr/bin/env ruby
 
-puts 'hello word!'
+require 'slack-ruby-bot'
+require 'rack'
+require_relative '../lib/neza-sbot'
+
