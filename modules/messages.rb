@@ -21,12 +21,15 @@ module Messages
     "
 
     COMMIT_SNIPPET="
-    `feat: User signup
+
+    The following is an example of a commit message:
+
+    feat: User signup
 
     - Write signup failing test
     - Add signup controller
     - Add signup endpoint
     
-    [Finishes#1111111]`
+    [Finishes#1111111]
     "
 end
