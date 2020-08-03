@@ -7,4 +7,26 @@ module Messages
 
     Reliability is our key!
     ".freeze
+
+    LINKS = "
+    \t\t\t\t\tHERE IS THE LIST ALL USEFUL DOCS AND REFERENCES AT NEZAGO
+    \t\t\t\t\t=========================================================
+    1. GitHub: https://www.github.com/nezago
+    2. Slack: https://nezago.slack.com
+    3. Medium: https://medium.com/@emmamugira
+    
+    \t\t\t\t\tGUIDELINES AND BESTPRACTICES AT NEZAGO
+    \t\t\t\t\t======================================
+    0. General link: https://github.com/nezago/nezago-guidelines/wiki
+    "
+
+    COMMIT_SNIPPET="
+    `feat: User signup
+
+    - Write signup failing test
+    - Add signup controller
+    - Add signup endpoint
+    
+    [Finishes#1111111]`
+    "
 end
