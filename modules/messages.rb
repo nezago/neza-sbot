@@ -15,6 +15,7 @@ module Messages
     2. Slack: https://nezago.slack.com
     3. Medium: https://medium.com/@emmamugira
     4. Email: neza.nezago@gmail.com
+    5. Our telegram bot: @neza_connect_bot or https://t.me/neza_connect_bot
     
     \t\t\t\t\tGUIDELINES AND BESTPRACTICES AT NEZAGO
     \t\t\t\t\t======================================
@@ -132,4 +133,6 @@ module Messages
 	* [Twitter username](twitter-profile-link)
 
    Or get it from this link:  https://raw.githubusercontent.com/nezago/nezago-guidelines/development/nezago-templates/nezago-readme-file-template.md"
+
+
 end
