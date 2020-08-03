@@ -21,4 +21,5 @@ jobs:
       - name: RSpec Report
         env:
           CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
+          CODECOV_TOKEN: ${{ secrets.SLACK_API_TOKEN }}
         run: rspec --force-color --format documentation
