@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
 
-require_relative '../lib/neza_sbot'
+require_relative '../config/environment'
 
 NezaSbot.run
