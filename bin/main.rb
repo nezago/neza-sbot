@@ -1,3 +1,5 @@
 #!/usr/bin/env ruby
 
-puts 'hello word!'
+require_relative '../config/environment'
+
+NezaSbot.run
