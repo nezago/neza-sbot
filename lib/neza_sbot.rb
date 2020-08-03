@@ -8,4 +8,7 @@ class NezaSbot < SlackRubyBot::Bot
   command 'commit template' do |client, data, _match|
     client.say(text: Messages::COMMIT_SNIPPET, channel: data.channel)
   end
+  command 'links' do |client, data, _match|
+    client.say(text: Messages::LINKS, channel: data.channel)
+  end
 end
