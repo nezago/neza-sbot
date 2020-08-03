@@ -1,7 +1,8 @@
 require 'slack-ruby-bot'
+require_relative '../modules/messages'
 
 class NezaSbot < SlackRubyBot::Bot
-  command 'ping' do |client, data, _match|
-    client.say(text: 'pong', channel: data.channel)
+  command 'start' do |client, data, _match|
+    client.say(text: Messages::WELCOME_MSG, channel: data.channel)
   end
 end
