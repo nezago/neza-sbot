@@ -38,7 +38,7 @@ module Messages
   PR_SNIPPET = "
 
     The following is a template of a pull request description:
-    =========================================================
+    ===============================================
 
     ## What does it do?
     >Explain what does this PR do in no more than 2 lines
@@ -85,7 +85,8 @@ module Messages
 > Screenshots: // If your project has some UI, you will link the screenshot of the UI here
 
 ## Built with
-> Built with : // You will specify the technologies you used to build this project such as languages, frameworks, or libararies, ...
+> Built with : // You will specify the technologies you used to build this project such as languages, frameworks,
+> or libararies, ...
 
 ## Features
 > Features : // List of features, what a user will be able to do with this project. Eg: a user can signup
@@ -100,7 +101,8 @@ module Messages
 	* List of all APIs
 
 ## Tools
-> Tools : //List of all tools you used building this projects. Example: Code editor, CI/CD tools, Testing tools, deplyoment tools, ...
+> Tools : //List of all tools you used building this projects.
+> Example: Code editor, CI/CD tools, Testing tools, deplyoment tools, ...
 
 ## Running and testing it locally
 > Elaborate how this project could be tested and run on one's local computer
@@ -121,7 +123,8 @@ module Messages
 > How should I contribute? //Specify steps to follow inorder to contribute to this project, if it is allowed.
 
 ## Acknowledgement (s)
-> If you have used some resources from someone, or instution, or if you got motivations from somewhere, you should show them the acknowlodgement
+> If you have used some resources from someone, or instution, or if you got motivations from somewhere,
+> you should show them the acknowlodgement
 
 ## Author (s)
 > Write your name here and list any other one whou helped you during this project
@@ -132,5 +135,7 @@ module Messages
 
 	* [Twitter username](twitter-profile-link)
 
-   Or get it from this link:  https://raw.githubusercontent.com/nezago/nezago-guidelines/development/nezago-templates/nezago-readme-file-template.md".freeze
+   Or get it from this link:
+   https://raw.githubusercontent.com/nezago/nezago-guidelines/development/nezago-templates/nezago-readme-file-template.md
+".freeze
 end
