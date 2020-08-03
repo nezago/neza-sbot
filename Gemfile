@@ -11,4 +11,3 @@ gem 'rspec', '~>3.0'
 gem 'rubocop', '~>0.81.0'
 gem 'simplecov', require: false, group: :test
 gem 'slack-ruby-bot'
-gem 'concurrent-ruby'
