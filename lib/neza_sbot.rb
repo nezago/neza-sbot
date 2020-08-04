@@ -20,4 +20,8 @@ class NezaSbot < SlackRubyBot::Bot
   command 'readme file template' do |client, data, _match|
     client.say(text: Messages::README_SNIPPET, channel: data.channel)
   end
+
+  command 'roadmap' do |client, data, _match|
+    client.say(text: Messages::ROADMAPS, channel: data.channel)
+  end
 end
